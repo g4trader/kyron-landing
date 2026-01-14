@@ -20,10 +20,10 @@ export default function Page() {
           real-time insights grounded in clinical data and scientific evidence.
         </p>
         <div className="mt-10 flex justify-center gap-4">
-          <a href="mailto:contact@kyron.ai" className="rounded-xl bg-slate-900 px-6 py-3 text-white font-semibold">
+          <a href="mailto:contact@kyron.ai" className="rounded-xl bg-slate-900 px-6 py-3 text-white font-semibold no-underline hover:bg-slate-800 transition-colors">
             Request early access
           </a>
-          <a href="#how" className="rounded-xl border px-6 py-3 font-semibold">
+          <a href="#how" className="rounded-xl border border-slate-300 px-6 py-3 font-semibold no-underline hover:bg-slate-50 transition-colors">
             How it works
           </a>
         </div>
