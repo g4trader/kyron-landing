@@ -14,9 +14,6 @@ export default function Page() {
         <div className="mx-auto max-w-7xl px-6 py-4 flex items-center justify-between">
           <div className="flex items-center gap-3">
             <Image src="/kyron-logo.png" alt="kyron" width={110} height={32} />
-            <span className="hidden md:inline text-xs font-medium text-slate-500 uppercase tracking-wide">
-              AI Copilot for ICU Decision Support
-            </span>
           </div>
           <nav className="hidden md:flex items-center gap-8">
             <a href="#features" className="text-sm font-medium text-slate-700 hover:text-slate-900 transition-colors">Features</a>
